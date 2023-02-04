@@ -1,33 +1,55 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin: 8px;
     
+}
+
+.header{
+    color: white;
+    font-weight: 800;
+    size: 20px;
+    flex: 12;
+}
+
+.headerlink {
+    color: #E5E7EB;
+    size: 8px;
+    flex: 1;
+
+}
+
+.headercontainer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    height: 50px;
 }
 
 .intro {
     size: 48px;
-    height: 250px;
-}
-
-.item {
-    height: 200px;
-}
-
-
-.footer {
-    height: 100px;
-    size: 18px;
-}
-
-#bluebackground {
+    height: 325px;
     background-color: #1F2937;
     color: white;
 }
 
-#whitebackground {
-    background-color:white;
+.whitebox {
+    height: 300px;
+    background-color: white;
 }
 
-#greybackground {
-    background-color: grey;
+.greybox {
+    height: 300px;
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 40px;
+    size: 18px;
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    color: #E5E7EB;
 }
