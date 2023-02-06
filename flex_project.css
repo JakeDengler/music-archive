@@ -29,7 +29,8 @@
 
 .intro {
     size: 48px;
-    height: 325px;
+    height: 200px;
+    padding: 125px;
     background-color: #1F2937;
     color: white;
 }
