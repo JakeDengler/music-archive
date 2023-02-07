@@ -38,8 +38,10 @@
 
 button {
     background-color: rgb(237, 115, 115);
-    border: none;
     color: rgb(255, 255, 255);
+    height: 60px;
+    width: 150px;
+    border: none;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
@@ -89,7 +91,15 @@ button:hover {opacity: 1}
     text-align: center;
     font-style: bold;
 }
+.bluecalltoactionbox {
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(83, 83, 193);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .footer {
     background-color: #1F2937;
     size: 18px;
