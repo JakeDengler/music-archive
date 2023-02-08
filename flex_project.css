@@ -9,14 +9,15 @@
     color: white;
     font-weight: 800;
     size: 20px;
-    flex: 10;
+    padding: 0px 5px 0px 5px;
+    flex: 16;
 }
 
 .headerlink {
     color: #E5E7EB;
     size: 8px;
     border: red;
-    flex: 2;
+    flex: 3;
 
 }
 
@@ -24,18 +25,32 @@
     background-color: #1F2937;
     display: flex;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
 }
 
 .intro {
     size: 48px;
     height: 300px;
-    padding: 125px;
+    padding: 30px 150px 100px 150px;
     background-color: #1F2937;
-    color: white;
 }
 
+.herotext {
+    font-size: 36px;
+    color: white;
+    padding: 50px 0px 5px 0px;
+}
+
+.sidekicktext {
+    font-size: 18px;
+    color: rgb(202, 201, 201);
+}
+.bjork {
+    float: right;
+    width: 450px;
+    height: 350px;
+}
 button {
     background-color: rgb(237, 115, 115);
     color: rgb(255, 255, 255);
