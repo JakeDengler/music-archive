@@ -30,7 +30,7 @@
 
 .intro {
     size: 48px;
-    height: 200px;
+    height: 300px;
     padding: 125px;
     background-color: #1F2937;
     color: white;
@@ -52,27 +52,41 @@ button {
 
 button:hover {opacity: 1}
 
-.calltoaction,
-.whiteboxcontainer {
-    height: 300px;
-    background-color: white;
+.albumarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
+
 }
 
 .albumbox {
-    border: #3882F6;
-    border-width: 40px;
-    text-align: center;
-    align-self: center;
-    color: black;
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    padding: 40px 20px 0px 20px;
 }
 
+h1 {
+    text-align: center;
+}
+
+.img-with-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.calltoaction,
+.whiteboxcontainer {
+    height: auto;
+    padding: 100px;
+    background-color: white;
+}
+
+
 .greybox {
-    height: 200px;
+    height: 100px;
     background-color: #E5E7EB;
     padding: 100px;
 }
