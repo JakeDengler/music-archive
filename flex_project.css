@@ -30,9 +30,8 @@
 }
 
 .intro {
-    size: 48px;
-    height: 300px;
-    padding: 30px 150px 100px 150px;
+    height: auto;
+    padding: 20px 150px 50px 150px;
     background-color: #1F2937;
 }
 
@@ -45,6 +44,7 @@
 .sidekicktext {
     font-size: 18px;
     color: rgb(202, 201, 201);
+    word-wrap: break-word;
 }
 .bjork {
     float: right;
@@ -59,6 +59,7 @@ button {
     border: none;
     padding: 16px 32px;
     text-align: center;
+    margin-top: 50px;
     font-size: 16px;
     opacity: 0.6;
     transition: 0.5s;
@@ -72,7 +73,6 @@ button:hover {opacity: 1}
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-
 }
 
 .albumbox {
@@ -93,7 +93,7 @@ h1 {
 
 .whiteboxcontainer {
     height: auto;
-    padding: 100px;
+    padding: 40px 160px 40px 160px;
     background-color: white;
 }
 
@@ -121,13 +121,11 @@ h1 {
 
 .calltoaction{
     background-color: white;
-    padding: 70px;
+    padding: 60px;
 }
 .bluecalltoactionbox {
-    margin: 10px;
     display: flex;
-    justify-content: center;
-    background-color: rgb(58, 58, 196);
+    background-color: #3882F6;
     color: white;
     justify-content: space-around;
 }
