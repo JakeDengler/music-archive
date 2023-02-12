@@ -38,8 +38,49 @@ html, body {
 
 .formbox {
     height: auto;
-    padding: 50px 150px 50px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 50px;
     background-color: #ffffff;  
+}
+
+.form{
+    font-size: 20px;
+    height: auot;
+    width: auto;
+    margin: auto;
+    color: black;
+    background-color: gainsboro;
+    padding: 20px 20px 20px 20px;
+}
+
+.construction {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    -webkit-text-stroke: 1px yellowgreen;
+
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 18px;
+    color: black;
+    padding-top: 10px 10px;
+}
+.memes {
+    height: 70%;
+    width: 70%;
 }
 
 
