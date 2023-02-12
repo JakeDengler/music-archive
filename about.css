@@ -1,4 +1,5 @@
 html, body {
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: 100%;
     }
@@ -59,13 +60,25 @@ html, body {
 }
 
 .passion {
-    width: 400px;
-    height: 200px;
     padding: 20px;
+    display: block;
+    width: 50%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bottomcontainer {
     height: auto;
     padding: 20px 150px 50px 150px;
     background-color: #ffffff;
+}
+
+.footer {
+    background-color: #1F2937;
+    size: 18px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+    color: #E5E7EB;
 }

@@ -1,4 +1,5 @@
 html, body {
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: 100%;
     }
@@ -93,11 +94,15 @@ button:hover {opacity: 1}
 
 h1 {
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .img-with-text {
     text-align: center;
     font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .whiteboxcontainer {
@@ -182,6 +187,6 @@ button2:hover {opacity: 1}
     size: 18px;
     text-align: center;
     font-size: 14px;
-    padding: 25px;
+    padding: 10px 25px 10px 25px;
     color: #E5E7EB;
 }
