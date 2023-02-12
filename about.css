@@ -58,6 +58,12 @@ html, body {
     padding-bottom: 30px;
 }
 
+.passion {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+
 .bottomcontainer {
     height: auto;
     padding: 20px 150px 50px 150px;
