@@ -15,7 +15,7 @@ html, body {
 }
 
 .headercontainer {
-    background-color: #1F2937;
+    background-color: #FEA7CF;
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
@@ -37,6 +37,22 @@ html, body {
 
 }
 
+.yaejihheadercontainer {
+    background-color: #DFDCDA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30 px;
+}
+
+.introyaejifont{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    color: #FEA7CF;
+    -webkit-text-stroke: 1px #9E938E;
+
+}
+
 button {
     background-color: rgb(237, 115, 115);
     color: rgb(255, 255, 255);
@@ -54,7 +70,7 @@ button {
 button:hover {opacity: 1}
 
 .footer {
-    background-color: #1F2937;
+    background-color: #FEA7CF;
     size: 18px;
     text-align: center;
     font-size: 14px;
