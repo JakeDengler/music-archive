@@ -57,11 +57,33 @@ html, body {
 }
 
 .introyaejifont{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 48px;
+    font-family:'Copperplate', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 52px;
     color: #FEA7CF;
     -webkit-text-stroke: 1px #9E938E;
+}
 
+.yaejisecondcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #12121C;
+}
+
+.toptrackfont {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #53555E;
+    font-size: 65px;
+    -webkit-text-stroke: 1px #FEA7CF;
+}
+
+.yaejitrackcover {
+    height: 50%;
+    width: 50%;
+    border: 10px solid #FEA7CF;
+    padding: 20px;
 }
 
 button {
