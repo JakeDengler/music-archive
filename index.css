@@ -38,11 +38,22 @@ html, body {
 }
 
 .yaejihheadercontainer {
-    background-color: #DFDCDA;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30 px;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+#grad {
+    background-image: linear-gradient(rgba(229,229,227,.80), 
+    rgba(215,212,202,.85));
+}
+
+.yaeji {
+    height: auto;
+    width: auto;
+    flex-grow: 2;
 }
 
 .introyaejifont{
