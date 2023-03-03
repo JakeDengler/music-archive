@@ -74,9 +74,9 @@ html, body {
 
 .toptrackfont {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #53555E;
+    color: #BF689A;
     font-size: 65px;
-    -webkit-text-stroke: 1px #FEA7CF;
+    -webkit-text-stroke: 1px #8A2A30;
 }
 
 .yaejitrackcover {
@@ -86,21 +86,83 @@ html, body {
     padding: 20px;
 }
 
-button {
-    background-color: rgb(237, 115, 115);
-    color: rgb(255, 255, 255);
-    height: 25px;
-    width: 80px;
-    border: none;
-    padding: 16px 32px;
+.sectionheader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    background-color: #FEA7CF;
     text-align: center;
-    margin: 0px 0px 20px 0px;
-    font-size: 20px;
+    margin: 0;
+    height: auto;
+}
+.topthreecontainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#topthreecolor {
+    background-color: white;
+}
+
+#albumradarcolor{
+    background-color: white;
+}
+
+#relradarcolor {
+    background-color: white;
+}
+
+#oldnewcolor {
+    background-color: white;
+
+}
+
+.albumartbox {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.albumbox {
+    height: 200px;
+    width: 200px;
+}
+
+.img-with-text {
+    display: block;
+}
+
+.spotifycontainer{
+    height: 125px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353F50;
+}
+
+button {
+    background-color: #24D34E;
+    color: white;
+    height: 80px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 0px 00px 0px;
+    align-items: center;
+    font-size: 50px;
     opacity: 0.6;
     transition: 0.5s;
 }
 
 button:hover {opacity: 1}
+
 
 .footer {
     background-color: #FEA7CF;
