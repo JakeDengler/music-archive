@@ -56,6 +56,7 @@ html, body {
     flex-grow: 2;
 }
 
+
 .introyaejifont{
     font-family:'Copperplate', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 52px;
@@ -130,6 +131,11 @@ html, body {
 .albumbox {
     height: 200px;
     width: 200px;
+    float: left;
+    margin: 0px;
+    padding-bottom: 10px;
+    position: relative;
+
 }
 
 .img-with-text {
@@ -137,12 +143,13 @@ html, body {
 }
 
 .spotifycontainer{
-    height: 125px;
+    height: auto;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #353F50;
+    padding: 20px;
 }
 
 button {
