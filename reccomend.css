@@ -36,6 +36,51 @@ html, body {
     padding-left: 20px;
 }
 
+.link {
+    size: 14px;
+    all: unset;
+    cursor: pointer;
+    font-family: inherit;
+    padding-left: 20px;
+    color: #E5E7EB;
+  }
+  
+  .dropdown-text {
+      text-decoration: none;
+      font-family: inherit;
+      color: pink;
+  }
+      
+  .dropdown > .link:focus,
+  .link:hover {
+      color: black;
+  }
+  
+  .dropdown {
+      position: relative;
+  }
+  
+  .dropdown-menu{
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      top: calc(100% + .25rem);
+      background-color: whitesmoke;
+      color: inherit;
+      text-decoration: inherit;
+      padding: .75rem;
+      border-radius: .25rem ;
+      box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+      transition: opacity 150ms ease-in-out;
+      transform: translateY(-10px);
+  }
+  
+  .dropdown > .link:focus + .dropdown-menu {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+  }
+
 .formbox {
     height: auto;
     display: flex;

@@ -36,9 +36,9 @@ html, body {
     padding-left: 20px;
 }
 .link {
-  background-color: transparent;
-  border-width: 0;
-  size: 8px;
+  size: 14px;
+  all: unset;
+  cursor: pointer;
   font-family: inherit;
   padding-left: 20px;
   color: #E5E7EB;
