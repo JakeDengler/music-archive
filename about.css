@@ -35,7 +35,21 @@ html, body {
     size: 8px;
     padding-left: 20px;
 }
+.link {
+  background-color: transparent;
+  border-width: 0;
+  size: 8px;
+  font-family: inherit;
+  padding-left: 20px;
+  color: #E5E7EB;
+}
 
+.dropdown-text {
+    text-decoration: none;
+    font-family: inherit;
+    color: pink;
+}
+    
 .dropdown > .link:focus,
 .link:hover {
     color: black;
@@ -50,7 +64,9 @@ html, body {
     position: absolute;
     left: 0;
     top: calc(100% + .25rem);
-    background-color: white;
+    background-color: whitesmoke;
+    color: inherit;
+    text-decoration: inherit;
     padding: .75rem;
     border-radius: .25rem ;
     box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
