@@ -197,7 +197,7 @@ html, body {
     padding: 20px;
 }
 
-button1 {
+.buttonoverride {
     background-color: #24D34E;
     color: white;
     height: 80px;
@@ -213,7 +213,7 @@ button1 {
     transition: 0.5s;
 }
 
-button1:hover {opacity: 1}
+.buttonoverride:hover {opacity: 1}
 
 
 .footer {
