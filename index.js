@@ -1,28 +1,13 @@
-var slideIndex = 1;
-showDivs(slideIndex);
+<link rel="stylesheet" href="about.css"></link>
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function dropdownFunction() {
+  document.getElementById("dropdownid").classList.toggle("showitem");
 }
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("topthreeslide");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+window.onclick = function() {
+  if (!e.target.matches('.dropmenu')) {
+  var myDropdown = document.getElementById("dropdownid");
+    if (myDropdown.classList.contains('showitem')) {
+      myDropdown.classList.remove('showitem');
+    }
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
 }
-
-

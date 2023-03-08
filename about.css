@@ -36,7 +36,33 @@ html, body {
     padding-left: 20px;
 }
 
+.dropdown > .link:focus,
+.link:hover {
+    color: black;
+}
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem ;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+    transition: opacity 150ms ease-in-out;
+    transform: translateY(-10px);
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
 .bluecontainer {
     height: auto;
     background-color: #1F2937;
